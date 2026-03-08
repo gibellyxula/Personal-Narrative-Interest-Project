@@ -1,0 +1,21 @@
+What I prompted:
+- Whats wrong with the code from this error : 
+/TheaterRunner.java:19: error: constructor 
+SceneOne in class SceneOne cannot be applied to 
+given types;
+- What are the combinations for this 2d array that 
+display every image 
+ImageFilter [][] experience = { {new ImageFilter ("plane.jpg"),
+new ImageFilter ("movie.jpg")}, {new ImageFilter ("football.jpg"),
+new ImageFilter ("disney.jpg")}, };
+----------------------------------------------------------------------
+What response I recieved:
+- ChatGPT gave me reasons such as my constructor was 
+written incorrectly, or that I needed an argument in the
+SceneOne object instantiation. I tried the argument and it worked.
+-[0][0] → "plane.jpg"
+[0][1] → "movie.jpg"
+[1][0] → "football.jpg"
+[1][1] → "disney.jpg" <-- I asked ChatGPT for this because I wanted to see how
+many methods I needed to write and how to get to every image.
+----------------------------------------------------------------------
